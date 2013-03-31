@@ -18,6 +18,7 @@
 		9B8750C017081B3800ECFB42 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8750BF17081B3800ECFB42 /* Default-568h@2x.png */; };
 		9B8750C317081B3800ECFB42 /* qiuqiuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8750C217081B3800ECFB42 /* qiuqiuViewController.m */; };
 		9B8750C617081B3800ECFB42 /* qiuqiuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8750C417081B3800ECFB42 /* qiuqiuViewController.xib */; };
+		9B8750CE1708267F00ECFB42 /* Myvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8750CD1708267F00ECFB42 /* Myvc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		9B8750C117081B3800ECFB42 /* qiuqiuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qiuqiuViewController.h; sourceTree = "<group>"; };
 		9B8750C217081B3800ECFB42 /* qiuqiuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qiuqiuViewController.m; sourceTree = "<group>"; };
 		9B8750C517081B3800ECFB42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/qiuqiuViewController.xib; sourceTree = "<group>"; };
+		9B8750CC1708267F00ECFB42 /* Myvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myvc.h; sourceTree = "<group>"; };
+		9B8750CD1708267F00ECFB42 /* Myvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Myvc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				9B8750C217081B3800ECFB42 /* qiuqiuViewController.m */,
 				9B8750C417081B3800ECFB42 /* qiuqiuViewController.xib */,
 				9B8750B017081B3800ECFB42 /* Supporting Files */,
+				9B8750CC1708267F00ECFB42 /* Myvc.h */,
+				9B8750CD1708267F00ECFB42 /* Myvc.m */,
 			);
 			path = LissyGit;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				9B8750B617081B3800ECFB42 /* main.m in Sources */,
 				9B8750BA17081B3800ECFB42 /* qiuqiuAppDelegate.m in Sources */,
 				9B8750C317081B3800ECFB42 /* qiuqiuViewController.m in Sources */,
+				9B8750CE1708267F00ECFB42 /* Myvc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
