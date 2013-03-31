@@ -9,6 +9,7 @@
 #import "qiuqiuAppDelegate.h"
 
 #import "qiuqiuViewController.h"
+#import "Myvc.h"
 
 @implementation qiuqiuAppDelegate
 
@@ -23,8 +24,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[qiuqiuViewController alloc] initWithNibName:@"qiuqiuViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    Myvc *vc = [[Myvc alloc] init];
+    
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
 }
